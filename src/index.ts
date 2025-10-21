@@ -89,7 +89,7 @@ function nstr(
     }
     
     // Handle edge cases: "-0." becomes "0", "0." becomes "0", "-0" becomes "0"
-    if (result === '-0.' || result === '0.' || result === '-0' || result === '0') {
+    if (result === '-0.' || result === '0.' || result === '-0') {
       result = '0'
     }
     
@@ -105,7 +105,7 @@ function nstr(
   }
   
   // Handle edge cases: "-0." becomes "0", "0." becomes "0", "-0" becomes "0"
-  if (result === '-0.' || result === '0.' || result === '-0' || result === '0') {
+  if (result === '-0.' || result === '0.' || result === '-0') {
     result = '0'
   }
   
